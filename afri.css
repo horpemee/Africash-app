@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Clash Display", serif;
+}
+.container {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 40px;
+  padding: 2rem 2rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+.logo h2 {
+  font-weight: 400;
+}
+.hero-section {
+  padding: 2rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 32px;
+}
+.hero-header {
+  text-align: center;
+  padding: 0 1rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  color: #000000;
+}
+.hero-text {
+  text-align: center;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 25px;
+}
+button {
+  padding: 0.2rem 2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+  border-radius: 30px;
+  background-color: #068353;
+}
+button img {
+  margin-right: 10px;
+  width: 14px;
+  height: 14px;
+}
+
+.btn-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+article {
+  background-image: url("/images/Earth.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ellipse {
+  position: relative;
+  background: #000;
+}
+.ellipse1 img {
+  position: absolute;
+  margin-right: 30px;
+}
+.laptop,
+.ladies,
+.face {
+  position: relative;
+}
+.laptop1 img {
+  position: absolute;
+  bottom: 0;
+  left: 5;
+}
+.ladies1 {
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+.face1 {
+  position: absolute;
+  bottom: 25%;
+
+  left: 10%;
+}
+.acct {
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+#sub-herosection {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+span {
+  color: #068353;
+}
+.phone {
+  display: flex;
+  position: relative;
+  justify-content: start;
+}
+.yellow-card {
+  position: absolute;
+  top: 14%;
+  left: 38%;
+}
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: left;
+  color: #000000;
+}
+.learn-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  color: #068353;
+  font-weight: 500;
+  font-size: 16px;
+}
+.learn {
+  color: white;
+}
+.learn-icon {
+  width: 16px;
+  height: 16px;
+}
+.savings {
+  display: flex;
+  position: relative;
+  justify-content: end;
+}
+.green-card {
+  position: absolute;
+  top: 38%;
+  left: 24%;
+}
+.green-section {
+  background-color: #8af1bb;
+  padding: 5rem 2rem;
+}
+.lemon-card {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 0px 15px 50px;
+  background-color: #068353;
+}
+.lemon-card img {
+  vertical-align: bottom;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.saving-card {
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+.wardrobe-card {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+}
+.perks-section {
+  background-color: #068353;
+  padding: 4rem 2rem;
+}
+.perk-title {
+  color: #ffffff;
+  font-weight: 600;
+}
+.perk-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 15px;
+}
+.perk-icon {
+  width: 18px;
+  height: 18px;
+}
+.perk-text {
+  color: #ffffff;
+}
+h4 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+h6 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}
+#cardItems {
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  /* padding: 2rem; */
+}
+.card-content {
+  border: 2px solid #808080;
+  padding: 0 2rem;
+  border-radius: 10px;
+}
+.info-item {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+}
+#app-download {
+  background-color: #068353;
+  padding: 3rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.app-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.app-store {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.business {
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+#newsletter {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem;
+}
+.email {
+  position: relative;
+  margin-top: 30px;
+}
+.input {
+  padding: 1.5rem;
+  width: 80vw;
+  border-radius: 30px;
+  border: none;
+  border: 2px solid #808080;
+}
+
+.subscribe {
+  text-align: center;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  bottom: 10px;
+  background-color: #068353;
+  border-radius: 30px;
+  width: 120px;
+  height: 50px;
+}
+button {
+  font-size: 14px;
+  font-size: 500;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+#footer {
+  padding: 2rem;
+  background-color: #068353;
+}
+
+.list {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  margin: 22px 0;
+}
+.list-header {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.africash {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.links-two,
+.links-three,
+.links-four {
+  margin-top: 26px;
+}
+.card-container {
+  border: 1px solid #808080;
+  border-radius: 20px;
+  padding: 30px;
+  /* background-color: rebeccapurple; */
+}
+.quote-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.quote-container img {
+  width: 10px;
+  height: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+}
+.profile-container img {
+  width: 50px;
+  height: 50px;
+}
+.rad-button {
+  text-align: center;
+}
+.dot {
+  height: 15px;
+  cursor: pointer;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover {
+  background-color: #717171;
+}
